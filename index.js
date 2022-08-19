@@ -5,8 +5,9 @@ function receivesAFunction(callback){
 }
 function returnsANamedFunction(callback){
     let function1 = function(){
-   return callback();
+
     }
+    return callback();
 }
 function returnsAnAnonymousFunction (){
     return function () {
